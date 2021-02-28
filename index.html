@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div class="app">
+    <div class="sport-block" id="running">
+        <img class="back-btn" src="img/left-arrow.png" alt="">
+        <div class="content-block">
+            <div class="content-title"><h2>Лёгкая атлетика</h2></div>
+            <div class="content-block-container">
+                <div class="content-info"><h4>При беге идет интенсификация (насыщение) тканей кислородом, благоприятно его воздействие и на сердечно-сосудистую систему. Повышая выносливость и силу сердечной мышцы, укрепляет стенки сосудов - это приводит к стабилизации артериального давления в молодом возрасте.</h4></div>
+                <h3>Выберите подходящее время</h3>
+                <select name="time" class="time">
+                    <option value="8-9">8:00 - 9:00</option>
+                    <option value="9-10">9:00 - 10:00</option>
+                    <option value="10-11">10:00 - 11:00</option>
+                    <option value="11-12">11:00 - 12:00</option>
+                    <option value="14-15">14:00 - 15:00</option>
+                    <option value="15-16">15:00 - 16:00</option>
+                    <option value="16-17">16:00 - 17:00</option>
+                    <option value="17-18">17:00 - 18:00</option>
+                </select>
+                <h3>Выберите тренера</h3>
+                <div class="trainers">
+                    <div class="trainer" data-num="0">
+                        <img src="img/pexels-maksim-goncharenok-4348638.jpg" alt="">
+                        <div class="trainer-info">Алексеев В.И.</div>
+                    </div>
+                    <div class="trainer" data-num="0">
+                        <img src="img/pexels-victor-freitas-841130.jpg" alt="">
+                        <div class="trainer-info">Лоськевич Д.А.</div>
+                    </div>
+                    <div class="trainer" data-num="0">
+                        <img src="img/pexels-mikotoraw-5067347.jpg" alt="">
+                        <div class="trainer-info">Кравченко Л.Д.</div>
+                    </div>
+                </div>
+                <button class="submit" id="0">Сonfirm</button>
+            </div>
+        </div>
+    </div>
+    <div class="sport-block" id="cycling">
+        <img class="back-btn" src="img/left-arrow.png" alt="">
+        <div class="content-block">
+            <div class="content-title"><h2>Велоспорт</h2></div>
+            <div class="content-block-container">
+                <div class="content-info"><h4>Кардионагрузка, которую обеспечивает катание на велосипеде, способствует укреплению сердечной мышцы, повышению тонуса сосудов, снижению уровня «плохого» и повышению уровня «хорошего» холестерина. Благодаря этому значительно снижается риск сердечных заболеваний.</h4></div>
+                <h3>Выберите подходящее время</h3>
+                <select name="time" class="time">
+                    <option value="8-9">8:00 - 9:00</option>
+                    <option value="9-10">9:00 - 10:00</option>
+                    <option value="10-11">10:00 - 11:00</option>
+                    <option value="11-12">11:00 - 12:00</option>
+                    <option value="14-15">14:00 - 15:00</option>
+                    <option value="15-16">15:00 - 16:00</option>
+                    <option value="16-17">16:00 - 17:00</option>
+                    <option value="17-18">17:00 - 18:00</option>
+                </select>
+                <h3>Выберите тренера</h3>
+                <div class="trainers">
+                    <div class="trainer" data-num="1">
+                        <img src="img/pexels-maksim-goncharenok-4348638.jpg" alt="">
+                        <div class="trainer-info">Грищенко В.У.</div>
+                    </div>
+                    <div class="trainer" data-num="1">
+                        <img src="img/pexels-victor-freitas-841130.jpg" alt="">
+                        <div class="trainer-info">Фодеев Б.Г.</div>
+                    </div>
+                    <div class="trainer" data-num="1">
+                        <img src="img/pexels-mikotoraw-5067347.jpg" alt="">
+                        <div class="trainer-info">Чижик П.Д.</div>
+                    </div>
+                </div>
+                <button class="submit" id="1">Сonfirm</button>
+            </div>
+        </div>
+    </div>
+    <div class="sport-block" id="rocking">
+        <img class="back-btn" src="img/left-arrow.png" alt="">
+        <div class="content-block">
+            <div class="content-title"><h2>Тяжёлая атлетика</h2></div>
+            <div class="content-block-container">
+                <div class="content-info"><h4>Регулярные тренировки способны не только формировать красивое тело внешне, но и способствовать этому изнутри. Доказано, что занятия тяжёлой атлетикой эффективно ускоряют обмен веществ. Конечно, тренировка сжигает очень много калорий, не давая жиру отложиться на проблемных местах.</h4></div>
+                <h3>Выберите подходящее время</h3>
+                <select name="time" class="time">
+                    <option value="8-9">8:00 - 9:00</option>
+                    <option value="9-10">9:00 - 10:00</option>
+                    <option value="10-11">10:00 - 11:00</option>
+                    <option value="11-12">11:00 - 12:00</option>
+                    <option value="14-15">14:00 - 15:00</option>
+                    <option value="15-16">15:00 - 16:00</option>
+                    <option value="16-17">16:00 - 17:00</option>
+                    <option value="17-18">17:00 - 18:00</option>
+                </select>
+                <h3>Выберите тренера</h3>
+                <div class="trainers">
+                    <div class="trainer" data-num="2">
+                        <img src="img/pexels-maksim-goncharenok-4348638.jpg" alt="">
+                        <div class="trainer-info">trainer1</div>
+                    </div>
+                    <div class="trainer" data-num="2">
+                        <img src="img/pexels-victor-freitas-841130.jpg" alt="">
+                        <div class="trainer-info">trainer2</div>
+                    </div>
+                    <div class="trainer" data-num="2">
+                        <img src="img/pexels-mikotoraw-5067347.jpg" alt="">
+                        <div class="trainer-info">trainer3</div>
+                    </div>
+                </div>
+                <button class="submit" id="2">Сonfirm</button>
+            </div>
+        </div>
+    </div>
+    <div class="arrayBlock">
+        <div class="title-btn"></div>
+        <div class="array"></div>
+    </div>
+    <div class="login-block">
+        <div class="login-btn">Вход</div>
+        <form action="" class="login">
+            <label for="log">Логин</label>
+            <input type="text" id="log" name="log" placeholder="Логин">
+            <label for="pass">Пароль</label>
+            <input type="text" id="pass" name="pass" placeholder="Пароль">
+            <button type="submit" id="submit">Войти</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
